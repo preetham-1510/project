@@ -139,7 +139,7 @@ export default function Home() {
 
             {/* 1-Second Cyber Scanning Modal / Overlay when searching */}
             {isLoading && (
-              <div className="mx-auto max-w-4xl px-4 py-12 text-center animate-in fade-in duration-300">
+              <div className="mx-auto px-4 py-12 text-center animate-in fade-in duration-300">
                 <div className="relative mx-auto flex h-32 w-32 items-center justify-center rounded-3xl border border-cyan-500/40 bg-slate-900/90 p-4 shadow-[0_0_50px_rgba(6,182,212,0.3)] backdrop-blur-xl">
                   <div className="absolute inset-0 rounded-3xl border-2 border-cyan-400/40 animate-ping" />
                   <Loader2 className="h-14 w-14 animate-spin text-cyan-400" />
